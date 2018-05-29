@@ -1,0 +1,22 @@
+{
+  "name": "nagorneac.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danthemantheman/nagorneac.com.git"
+  },
+  "author": "Dan Nagorneac",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/danthemantheman/nagorneac.com/issues"
+  },
+  "homepage": "https://github.com/danthemantheman/nagorneac.com#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  }
+}
