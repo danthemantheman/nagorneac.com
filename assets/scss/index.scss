@@ -1,7 +1,12 @@
-$color: #fff;
-
-body {
-  header {
-    background: $color;
-  }
+* {
+  box-sizing: border-box;
 }
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+

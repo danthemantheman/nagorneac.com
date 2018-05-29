@@ -27,7 +27,8 @@ function defaultTask(done) {
 
 gulp.task('html', function(done) {
   return gulp.src(HTML_ASSET_DIR)
-    .pipe(gulp.dest('public'));
+    .pipe(gulp.dest('public'))
+    .pipe(livereload());
 });
 
 gulp.task('img', function(done) {
