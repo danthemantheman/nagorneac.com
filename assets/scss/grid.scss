@@ -1,0 +1,22 @@
+$grid-columns: 12;
+$container-width: 960px;
+
+@for $i from 1 through $grid-columns {
+  .col-#{$i} {
+    width: percentage($i / $grid-columns);
+  }
+}
+
+[class^='col-'] {
+  float: left;
+}
+
+.container {
+  max-width: $container-width;
+  position: relative;
+  margin: auto;
+}
+
+.row {
+  clear: both;
+}

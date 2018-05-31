@@ -9,4 +9,103 @@ html, body {
   height: 100%;
 }
 
+nav {
+  padding: 16px 0px;
+  overflow: auto;
+  background-color: black;
+  background: linear-gradient(to bottom, #3c3c3c 0%,#131313 50%);
+  color: #fff;
 
+  h1 {
+    float: left;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 2em;
+    font-weight: lighter;
+    margin: 0px;
+
+  }
+
+  .socialicons {
+    float: right;
+    list-style-type: none;
+    margin: 0px;
+    padding: 2px 0px;
+
+    li {
+      float: right;
+      font-size: 30.4px;
+      padding: 0px 10px;
+    }
+  }
+}
+
+header {
+  text-align: center;
+  font-size: 2.5em;
+  color: #fff;
+  background: url('https://placeimg.com/1024/180/tech/grayscale');
+  background-size: cover;
+  margin: 0px;
+  padding: 2.5em 0em;
+
+  h2 {
+    margin: 0px;
+  }
+}
+
+.work {
+  overflow: auto;
+
+  .row .col-4 {
+    height: 200px;
+  }
+}
+
+footer {
+  background: black;
+  color: white;
+  overflow: auto;
+  padding: 66px 0px;
+
+  .col-8 {
+    padding: 30px 0px 0px 10px;
+  }
+
+  h1 {
+    float: left;
+    margin: 0px;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 2em;
+    font-weight: lighter;
+  }
+
+  img { 
+    border-radius: 50%;
+  }
+
+  ul {
+    list-style-type: none;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.5em;
+    font-family: 'Hammersmith One', sans-serif;
+
+    li {
+      padding: 2px 0px;
+    }
+  }
+
+  .socialicons {
+    float: right;
+    margin: 0px;
+    list-style-type: none;
+    padding: 2px 0px;
+
+    li {
+      float: right;
+      font-size: 30.4px;
+      padding: 0px 10px;
+    }
+  }
+}
