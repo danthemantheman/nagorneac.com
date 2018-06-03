@@ -9,6 +9,14 @@ html, body {
   height: 100%;
 }
 
+h1 {
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 2em;
+  font-weight: lighter;
+  margin: 0px;
+  color: #fff;
+}
+
 nav {
   padding: 16px 0px;
   overflow: auto;
@@ -18,11 +26,6 @@ nav {
 
   h1 {
     float: left;
-    font-family: 'Hammersmith One', sans-serif;
-    font-size: 2em;
-    font-weight: lighter;
-    margin: 0px;
-
   }
 
   .socialicons {
@@ -55,9 +58,32 @@ header {
 
 .work {
   overflow: auto;
+  padding: 72px 0px;
 
-  .row .col-4 {
+  .container {
+    position: relative;
+    left: 80px;
+  }
+
+  h1 {
+    position: absolute;
+    left: -80px;
+    top: 20px;
+  }
+
+  &.color1 {
+    background: #6ee1a2;
+  }
+
+  &.color2 {
+    background: #eba788;
+  }
+
+  .thumbnail {
+    margin: 3%;
     height: 200px;
+    width: 27%;
+    float: left;
   }
 }
 
