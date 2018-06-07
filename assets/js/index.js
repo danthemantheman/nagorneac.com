@@ -1,4 +1,10 @@
-/* hello lol */
-const ayy = () => 'lmao';
+$(function() {
+  $('.thumbnail').on('click', function() {
 
-let x = ayy();
+    $('#modal').fadeIn();
+
+  });
+
+
+});
+
