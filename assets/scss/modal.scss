@@ -1,4 +1,4 @@
-#modal {
+.modal {
   background: rgba(255,255,255,0.9);
   height: 100%;
   width: 100%;
@@ -6,4 +6,27 @@
   top: 0;
   left: 0;
   display: none;
+  overflow: auto;
+
+  .content {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+  
+    .close {
+      height: 40px;
+      width: 40px;
+      margin: 15px;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+    }
+
+    .fullsize {
+      margin: auto;
+      height: 100%;
+      display: block;
+      clear: both;
+    }
+  }
 }
